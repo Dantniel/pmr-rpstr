@@ -5,9 +5,8 @@
 # 3) Exibir a média 
 # A média é = (E1 * 2 + E2 * 3) / 5
 
-Etp1 = float(input(f'Digite a nota da primeira etapa: '))
-
-Etp2 = float(input(f'Digite sua nota da segunta etapa: '))
+Etp1 = float(input('Digite a nota da primeira etapa: '))
+Etp2 = float(input('Digite sua nota da segunta etapa: '))
 
 media = (Etp1 * 2 + Etp2 * 3) / 5
 
