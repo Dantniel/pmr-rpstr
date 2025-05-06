@@ -7,7 +7,7 @@ velo_ini = int(input('Informe a velocidade inicial: '))
 if velo_ini <= 0 :
     sys.exit('Informe uma velocidade positiva')
 
-tempo = float(input('informe o tempo: '))
+tempo = int(input('informe o tempo: '))
 
 acel = int(input('Informe a aceleração: '))
 
