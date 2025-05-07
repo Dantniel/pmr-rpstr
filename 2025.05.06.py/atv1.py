@@ -11,6 +11,6 @@ tempo = int(input('informe o tempo: '))
 
 acel = int(input('Informe a aceleração: '))
 
-delta_s = velo_ini * tempo + (acel * (tempo * tempo)) / 2
+delta_s = velo_ini * tempo + (acel * tempo ** 2 ) / 2
 
 print(f'A velocidade do motorista é {delta_s}') 
