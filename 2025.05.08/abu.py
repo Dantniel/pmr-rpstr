@@ -22,6 +22,7 @@ hip = input('Qual o ângulo da hipotenusa')
 if hip < 0 or hip > 180:
     sys.exit('Volta pro fundamental')
 
-ang_int = cat_a + cat_o + hip
-if ang_int > 180:
+trian = cat_a + cat_o + hip
+if trian > 180:
     sys.exit('Isso é tudo, menos um triângulo')
+ 
