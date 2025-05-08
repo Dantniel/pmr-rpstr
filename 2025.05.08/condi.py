@@ -17,8 +17,8 @@ etapa2 = int(input('informe a nota da etapa 2: '))
 if etapa2 < 0 or etapa2 > 100:
     sys.exit('Erro: nota inválida, tem um bagulho errado aí')
 
-media = (etapa1 * 2 + etapa2 * 3) / 5
-print(f'Média do aluno: {media:.0f}')
+media = int(round( (etapa1 * 2 + etapa2 * 3) / 5, 0))
+print(f'Média do aluno: {media}')
 
 if media >= 60:
     print('Aluno aprovado.')
