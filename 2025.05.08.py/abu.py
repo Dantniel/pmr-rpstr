@@ -11,15 +11,15 @@ Programa para classificar um triângulo quanto aos ângulos.
 import sys
 
 cat_a = input('Qual o ângulo do cateto adjacente? ')
-if cat_a < 0 or cat_a > 180:
+if cat_a <= 0 or cat_a >= 180:
     sys.exit('Tá de zuera com minha cara, é pegadinha.')
 
 cat_o = input('Qual o Angulo do cateto oposto?')
-if cat_o < 0 or cat_o > 180:
+if cat_o <= 0 or cat_o >= 180:
     sys.exit('Ha ha, muito engraçado')
 
 hip = input('Qual o ângulo da hipotenusa')
-if hip < 0 or hip > 180:
+if hip <= 0 or hip >= 180:
     sys.exit('Volta pro fundamental')
 
 trian = cat_a + cat_o + hip
