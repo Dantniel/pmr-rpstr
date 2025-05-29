@@ -5,9 +5,7 @@
 # B) A soma dos números inteiros positivos;
 # C) A média dos números inteiros positivos;
 # O valor 0 digitado não deve ser considerado em nenhum dos iten acima.
-from logging import exception
 import sys
-from turtle import numinput
 
 valor = None
 somaposi = 0
