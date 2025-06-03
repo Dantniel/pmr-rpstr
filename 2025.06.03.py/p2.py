@@ -30,7 +30,7 @@ else:
       intPotenciacao *=  intBase
       intContador    += 1
    '''
-for intContador in range(1, intPotencia + 1 , 1):
+for intContador in range(1, intPotencia + 1):
     intPotenciacao *=  intBase
     
     print(f'{intBase} ** {intPotencia} = {intPotenciacao}')

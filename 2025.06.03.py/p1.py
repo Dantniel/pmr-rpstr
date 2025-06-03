@@ -31,7 +31,7 @@ else:
       intProduto  += intMultiplicando
       intContador += 1
 '''
-for intcontador in range (1, intMultiplicador + 1 , 1 ): 
+for intcontador in range (1, intMultiplicador + 1): 
     intProduto += intMultiplicador
     
 print(f'{intMultiplicador} x {intMultiplicando} = {intProduto}')
