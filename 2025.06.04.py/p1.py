@@ -16,9 +16,12 @@ except Exception as e:
 
 else:
     if num1 <= 0 or num2 <= 0:
-        sys.exit('O valor deve ser inteiro')
+        sys.exit('O valor deve ser inteiro e positivo')
 
-MDC = 1
+aux_1 = num1
+aux_2 = num2
 
-if num1 > num2:
-for num2 in range (1, num1 + 1)
+while aux_2 != 0:
+ aux_1, aux_2 = aux_2, aux_1 % aux_2
+
+print(f'MDC ({num1}, {num2}) = {aux_1}')
